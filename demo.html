@@ -3,6 +3,11 @@
 		<title>jQuery Clear-on-Focus demo</title>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 		<script type="text/javascript" src="jquery.clear-on-focus.js"></script>
+		<style type="text/css">
+			h1 { margin-bottom: 0; }
+			.under-title { font-style:italic; }
+			input { font: 1em serif; margin: 0.25em; padding: 0.25em; width: 20em; }
+		</style>
 	</head>
 	<body>
 		<h1>jQuery Clear-on-Focus demo</h1>
@@ -11,6 +16,8 @@
 			Version 1.0</br>
 			Updated 29/07/2011.
 		</p>
+
+		<p>Try interacting with the form below to see the plugin in action. Note how if you leave a field blank, it goes back to its original setting.</p>
 
 		<form action="" method="post">
 			<input type="text" name="username" value="Enter username" class="clear-on-focus" />
